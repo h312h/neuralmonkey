@@ -139,6 +139,7 @@ class EmbeddedFactorSequence(Sequence):
             self.vocabularies[i].save_wordlist(wordlist, True, True)
 
             embedding = projector.embeddings.add()
+            # pylint: disable=unsubscriptable-object
             embedding.tensor_name = self.embedding_matrices[i].name
             embedding.metadata_path = wordlist
 

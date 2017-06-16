@@ -1,7 +1,7 @@
-# pylint: disable=too-many-lines
 """This module implements the Vocabulary class and the helper functions that
 can be used to obtain a Vocabulary instance.
 """
+# pylint: disable=too-many-lines
 
 import collections
 import os
